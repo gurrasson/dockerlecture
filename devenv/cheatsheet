@@ -1,0 +1,1 @@
+docker run --rm=true -ti -v $PWD/code:/home/code devenv
