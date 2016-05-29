@@ -1,0 +1,12 @@
+  fileserver:
+    build: fileserver
+    container_name: fileserver
+    ports: 
+      - "7070:7070"
+    volumes:
+      - ./fileserver/files:/home/files
+    net: curlernet
+  curler:
+    build: .
+    container_name: curler
+    net: curlernet
