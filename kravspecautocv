@@ -1,0 +1,11 @@
+kravspec autocv:
+port 8080
+
+sqlite3
+golang
+bower
+nodejs
+make
+
+go get
+bower install
